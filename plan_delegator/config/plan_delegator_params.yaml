@@ -39,4 +39,5 @@ duration_to_signal_before_lane_change: 2.5
 # in the next iteration.
 # HACK: plan_delegator callback fails when trajectory generation is slow,
 # especially with multiple trajectories (lane change, yield).
+# Tracking: https://github.com/usdot-fhwa-stol/carma-platform/issues/2651
 max_traj_generation_reattempt: 1000
